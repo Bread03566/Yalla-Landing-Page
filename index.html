@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yalla Habibi - Lucena City's premier Mediterranean-Mexican fusion restaurant. Enjoy customizable shawarma bowls, birria tacos, crispy loaded fries, and refreshing matcha desserts.">
+  <meta name="keywords" content="Yalla Habibi, Lucena City restaurant, Mediterranean Mexican fusion, shawarma bowl, birria tacos, fast casual Lucena">
+  <meta name="theme-color" content="#0C4A4A">
+  <title>Yalla Habibi | Mediterranean Mood, Mexican Groove | Lucena City</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/531821665_1160541802759277_3831146347920746539_n.jpg">
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Relative Stylesheet Link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Accessible Skip Link for Keyboard Navigation -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- =========================================================================
+       1. NAVBAR / HEADER LANDMARK
+       ========================================================================= -->
+  <header class="site-header" id="top">
+    <div class="header-container">
+      <!-- Brand Logo & Identity -->
+      <a href="#top" class="brand-link" aria-label="Yalla Habibi Homepage">
+        <img src="assets/531821665_1160541802759277_3831146347920746539_n.jpg" 
+             alt="Yalla Habibi Circular Logo with cheerful turquoise backdrop and retro typography" 
+             class="brand-logo" 
+             width="52" 
+             height="52">
+        <span class="brand-text">
+          <span class="brand-name">Yalla Habibi</span>
+          <span class="brand-tagline">Mediterranean × Mexican</span>
+        </span>
+      </a>
+
+      <!-- Primary Navigation -->
+      <nav class="navbar" id="primary-nav" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+          <li class="nav-item"><a href="#bowl-builder" class="nav-link highlight-link">Build Your Bowl</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">FAQs</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions: Theme Toggle & Order CTA & Mobile Hamburger -->
+      <div class="header-actions">
+        <!-- Light / Dark Theme Switcher Button -->
+        <button type="button" 
+                class="theme-toggle-btn" 
+                id="theme-toggle" 
+                aria-label="Toggle dark or light theme" 
+                title="Toggle Theme">
+          <svg class="theme-icon sun-icon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Order Now Button -->
+        <a href="#bowl-builder" class="btn btn-primary nav-order-btn">Order Now</a>
+
+        <!-- Mobile Hamburger Toggle Button -->
+        <button type="button" 
+                class="hamburger-btn" 
+                id="hamburger-btn" 
+                aria-controls="primary-nav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation menu">
+          <span class="hamburger-bar" aria-hidden="true"></span>
+          <span class="hamburger-bar" aria-hidden="true"></span>
+          <span class="hamburger-bar" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       MAIN CONTENT CONTAINER LANDMARK
+       ========================================================================= -->
+  <main id="main-content">
+
+    <!-- =========================================================================
+         2. HERO SECTION
+         ========================================================================= -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-pattern-bg" aria-hidden="true"></div>
+      <div class="section-container hero-grid">
+        
+        <!-- Hero Text & Value Proposition -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-pulsing-dot" aria-hidden="true"></span>
+            <span>Lucena City's Viral Fusion Kitchen</span>
+          </div>
+
+          <h1 id="hero-heading" class="hero-title">
+            Mediterranean Mood, <br>
+            <span class="text-gradient">Mexican Groove!</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Experience the vibrant fusion of Middle Eastern flame and Mexican zest. Build your customized shawarma rice bowls, bite into juicy wraps, and feast on loaded fries crafted fresh daily in Lucena City.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#bowl-builder" class="btn btn-cta btn-lg">
+              <span>Build Your Own Bowl</span>
+              <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#menu" class="btn btn-secondary btn-lg">View Full Menu</a>
+          </div>
+
+          <!-- Feature Highlights / Trust Indicators -->
+          <div class="hero-features-list" role="list" aria-label="Key Restaurant Highlights">
+            <div class="hero-feature-item" role="listitem">
+              <span class="feature-icon" aria-hidden="true">🥗</span>
+              <div>
+                <strong>100% Fresh Daily</strong>
+                <p>Crisp veggies & premium cuts</p>
+              </div>
+            </div>
+            <div class="hero-feature-item" role="listitem">
+              <span class="feature-icon" aria-hidden="true">🔥</span>
+              <div>
+                <strong>Customizable Bowls</strong>
+                <p>Base, protein, toppings & sauce</p>
+              </div>
+            </div>
+            <div class="hero-feature-item" role="listitem">
+              <span class="feature-icon" aria-hidden="true">📍</span>
+              <div>
+                <strong>Lucena City Hotspot</strong>
+                <p>Dine-in, takeout & delivery</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="hero-visual">
+          <div class="hero-image-card">
+            <img src="assets/550381175_1192264436253680_4836399726310677350_n.png" 
+                 alt="Vibrant dining room of Yalla Habibi featuring Mediterranean teal arches, warm terracotta tiles, and neon slogan Mediterranean mood, mexican groove" 
+                 class="hero-img" 
+                 width="800" 
+                 height="500" 
+                 loading="eager">
+            <div class="hero-tag-floating">
+              <span class="tag-icon" aria-hidden="true">🌯</span>
+              <div>
+                <strong>Fast-Casual Vibe</strong>
+                <small>Lucena City, Quezon</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. CORE CONTENT SECTION: ABOUT STORY & SIGNATURE OFFERINGS
+         ========================================================================= -->
+    <section class="core-content-section" id="about" aria-labelledby="about-heading">
+      <div class="section-container">
+        
+        <!-- Story / Brand Intro -->
+        <div class="section-header text-center">
+          <p class="section-eyebrow">Our Story & Flavors</p>
+          <h2 id="about-heading" class="section-title">Where the Spice of the Levant Meets the Fire of Mexico</h2>
+          <p class="section-desc">
+            At Yalla Habibi, we believe great food shouldn't be boring or complicated. Born in the heart of Lucena City, we combine the slow-roasted, aromatic warmth of Mediterranean shawarma with the bold, zesty spirit of authentic Mexican street food. Whether you are craving a high-protein post-workout bowl or sharing loaded fries with your crew, we’ve got your table ready!
+          </p>
+        </div>
+
+        <!-- Signature Highlights Grid (Real Dishes & Assets) -->
+        <div class="signature-grid" aria-label="Signature Menu Highlights">
+          
+          <!-- Dish 1: New Shawarma Wrap -->
+          <article class="dish-card" aria-labelledby="dish-wrap-title">
+            <div class="dish-media">
+              <img src="assets/800275457_1496946245785496_5178054049255909124_n.jpg" 
+                   alt="Close-up of freshly grilled Yalla Habibi Shawarma Wrap cut in halves showing juicy seasoned chicken and melted fillings" 
+                   class="dish-img" 
+                   loading="lazy">
+              <span class="dish-badge">New Arrival</span>
+            </div>
+            <div class="dish-body">
+              <div class="dish-header">
+                <h3 id="dish-wrap-title" class="dish-title">Signature Shawarma Wrap</h3>
+                <span class="dish-price">₱149</span>
+              </div>
+              <p class="dish-description">
+                Juicy, spiced chicken shawarma rolled in warm flatbread with garlicky toum, crisp pickles, fries, and creamy cheese. Addictive and perfect on the go!
+              </p>
+              <div class="dish-tags" aria-label="Tags">
+                <span class="tag">Chef's Pick</span>
+                <span class="tag">High Protein</span>
+              </div>
+              <button type="button" class="btn btn-outline btn-sm open-modal-btn" data-dish="wrap">View Details</button>
+            </div>
+          </article>
+
+          <!-- Dish 2: Loaded Habibi Fries Platter -->
+          <article class="dish-card" aria-labelledby="dish-fries-title">
+            <div class="dish-media">
+              <img src="assets/642359699_17875232058520632_6829404238685055257_n.jpg" 
+                   alt="Generous platter of golden shoestring fries generously topped with shawarma meat, creamy sauce, served with a fresh corn salad bowl" 
+                   class="dish-img" 
+                   loading="lazy">
+              <span class="dish-badge">Crowd Favorite</span>
+            </div>
+            <div class="dish-body">
+              <div class="dish-header">
+                <h3 id="dish-fries-title" class="dish-title">Loaded Habibi Fries & Salad</h3>
+                <span class="dish-price">₱189</span>
+              </div>
+              <p class="dish-description">
+                Crisp golden shoestring fries smothered in spiced meat cuts, rich chipotle cheese drizzle, and cilantro, complemented by a zesty sweet corn salad.
+              </p>
+              <div class="dish-tags" aria-label="Tags">
+                <span class="tag">Great for Sharing</span>
+                <span class="tag">Comfort Food</span>
+              </div>
+              <button type="button" class="btn btn-outline btn-sm open-modal-btn" data-dish="fries">View Details</button>
+            </div>
+          </article>
+
+          <!-- Dish 3: Rice Bowl & Matcha Swirl Combo -->
+          <article class="dish-card" aria-labelledby="dish-matcha-title">
+            <div class="dish-media">
+              <img src="assets/642119347_17875051863520632_3456016616253996285_n.jpg" 
+                   alt="Wholesome Mediterranean shawarma rice bowl paired with a Yalla Habibi cup of premium vanilla matcha swirl soft-serve dessert" 
+                   class="dish-img" 
+                   loading="lazy">
+              <span class="dish-badge">Combo Deal</span>
+            </div>
+            <div class="dish-body">
+              <div class="dish-header">
+                <h3 id="dish-matcha-title" class="dish-title">Shawarma Bowl & Matcha Swirl</h3>
+                <span class="dish-price">₱229</span>
+              </div>
+              <p class="dish-description">
+                The ultimate sweet and savory pairing: a hearty customized shawarma rice bowl followed by our signature cool matcha and vanilla swirl soft-serve cup.
+              </p>
+              <div class="dish-tags" aria-label="Tags">
+                <span class="tag">Sweet & Savory</span>
+                <span class="tag">Dessert Included</span>
+              </div>
+              <button type="button" class="btn btn-outline btn-sm open-modal-btn" data-dish="matcha">View Details</button>
+            </div>
+          </article>
+
+          <!-- Dish 4: Party Packs & Takeaway Feast -->
+          <article class="dish-card" aria-labelledby="dish-takeaway-title">
+            <div class="dish-media">
+              <img src="assets/660427105_17879556843520632_7744609485749811534_n.jpg" 
+                   alt="Paper takeaway gift bags loaded with sealed Yalla Habibi meals for family takeout and catering" 
+                   class="dish-img" 
+                   loading="lazy">
+              <span class="dish-badge">Takeout Ready</span>
+            </div>
+            <div class="dish-body">
+              <div class="dish-header">
+                <h3 id="dish-takeaway-title" class="dish-title">Habibi Family & Office Packs</h3>
+                <span class="dish-price">From ₱499</span>
+              </div>
+              <p class="dish-description">
+                Hosting a squad or family lunch in Lucena? Our neatly packed, spill-proof party bags keep bowls, tacos, and loaded sides piping hot and fresh.
+              </p>
+              <div class="dish-tags" aria-label="Tags">
+                <span class="tag">Bulk Orders</span>
+                <span class="tag">Catering</span>
+              </div>
+              <button type="button" class="btn btn-outline btn-sm open-modal-btn" data-dish="takeaway">View Details</button>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- ===================================================================
+             STRUCTURED FULL MENU WITH CATEGORY FILTER
+             =================================================================== -->
+        <div class="menu-catalog-block" id="menu">
+          <div class="section-header text-center">
+            <p class="section-eyebrow">Flavor Catalog</p>
+            <h2 class="section-title">Explore Our Full Menu</h2>
+            <p class="section-desc">Select a category below to filter our popular dishes, bowls, and beverages.</p>
+          </div>
+
+          <!-- Category Filter Tabs -->
+          <div class="menu-filter-bar" role="tablist" aria-label="Menu Categories">
+            <button type="button" class="filter-tab active" role="tab" aria-selected="true" aria-controls="menu-grid" data-category="all">All Items</button>
+            <button type="button" class="filter-tab" role="tab" aria-selected="false" aria-controls="menu-grid" data-category="bowls">Bowls</button>
+            <button type="button" class="filter-tab" role="tab" aria-selected="false" aria-controls="menu-grid" data-category="wraps">Wraps & Tacos</button>
+            <button type="button" class="filter-tab" role="tab" aria-selected="false" aria-controls="menu-grid" data-category="sides">Loaded Sides</button>
+            <button type="button" class="filter-tab" role="tab" aria-selected="false" aria-controls="menu-grid" data-category="desserts">Drinks & Desserts</button>
+          </div>
+
+          <!-- Filterable Menu Items Grid -->
+          <div class="menu-items-grid" id="menu-grid" role="region" aria-live="polite">
+            
+            <!-- Item 1: Bowls -->
+            <div class="menu-item-card" data-category="bowls">
+              <div class="item-info">
+                <div class="item-title-row">
+                  <h4>Classic Chicken Shawarma Bowl</h4>
+                  <span class="item-price">₱189</span>
+                </div>
+                <p class="item-desc">Fragrant basmati rice, tender seasoned chicken shawarma, diced tomatoes, crisp cucumber, and our house garlic sauce.</p>
+                <span class="item-meta">High-Protein • Rice Base</span>
+              </div>
+            </div>
+
+            <!-- Item 2: Bowls -->
+            <div class="menu-item-card" data-category="bowls">
+              <div class="item-info">
+                <div class="item-title-row">
+                  <h4>Kofta Kebab Power Bowl</h4>
+                  <span class="item-price">₱209</span>
+                </div>
+                <p class="item-desc">Juicy grilled beef kofta kebabs served over basmati rice, fresh onions, shredded mozzarella, and spicy chipotle sauce.</p>
+                <span class="item-meta">Hearty • Flame-Grilled</span>
+              </div>
+            </div>
+
+            <!-- Item 3: Bowls -->
+            <div class="menu-item-card" data-category="bowls">
+              <div class="item-info">
+                <div class="item-title-row">
+                  <h4>Crispy Breaded Chicken Salad Bowl</h4>
+                  <span class="item-price">₱189</span>
+                </div>
+                <p class="item-desc">Golden crisp breaded chicken tenders atop fresh green lettuce, sweet corn, habibi mix salad, and smoky chipotle drizzle.</p>
+                <span class="item-meta">Low Carb • Fresh & Crunchy</span>
+              </div>
+            </div>
+
+            <!-- Item 4: Wraps -->
+            <div class="menu-item-card" data-category="wraps">
+              <div class="item-info">
+                <div class="item-title-row">
+                  <h4>Habibi Spicy Birria Taco (2 pcs)</h4>
+                  <span class="item-price">₱199</span>
+                </div>
+                <p class="item-desc">Slow-braised savory beef stuffed in toasted corn tortillas with melted mozzarella, chopped onions, and a rich spiced dipping broth.</p>
+                <span class="item-meta">Chef Favorite • With Consomé</span>
+              </div>
+            </div>
+
+            <!-- Item 5: Wraps -->
+            <div class="menu-item-card" data-category="wraps">
+              <div class="item-info">
+                <div class="item-title-row">
+                  <h4>Toasted Chicken Shawarma Wrap</h4>
+                  <span class="item-price">₱149</span>
+                </div>
+                <p class="item-desc">Tightly wrapped spiced chicken, crunchy pickles, French fries, and toum garlic dressing in a grilled flour tortilla.</p>
+                <span class="item-meta">Street Style • Best Seller</span>
+              </div>
+            </div>
+
+            <!-- Item 6: Sides -->
+            <div class="menu-item-card" data-category="sides">
+              <div class="item-info">
+                <div class="item-title-row">
+                  <h4>Loaded Shawarma Fries Platter</h4>
+                  <span class="item-price">₱189</span>
+                </div>
+                <p class="item-desc">Golden crisp fries layered with minced beef, chicken shawarma, warm cheese sauce, and fresh habibi salsa.</p>
+                <span class="item-meta">Great for 2 • Cheesy Indulgence</span>
+              </div>
+            </div>
+
+            <!-- Item 7: Sides -->
+            <div class="menu-item-card" data-category="sides">
+              <div class="item-info">
+                <div class="item-title-row">
+                  <h4>Habibi Mix Mediterranean Salad</h4>
+                  <span class="item-price">₱119</span>
+                </div>
+                <p class="item-desc">Crisp lettuce, cucumbers, diced red onions, sweet corn, and cherry tomatoes tossed in lemon-herb vinaigrette.</p>
+                <span class="item-meta">Vegetarian • Light & Refreshing</span>
+              </div>
+            </div>
+
+            <!-- Item 8: Desserts -->
+            <div class="menu-item-card" data-category="desserts">
+              <div class="item-info">
+                <div class="item-title-row">
+                  <h4>Matcha & Vanilla Soft Serve Cup</h4>
+                  <span class="item-price">₱79</span>
+                </div>
+                <p class="item-desc">Rich Japanese ceremonial matcha swirled with creamy Madagascar vanilla soft-serve, dusted with matcha powder.</p>
+                <span class="item-meta">Sweet Treat • Cool & Creamy</span>
+              </div>
+            </div>
+
+            <!-- Item 9: Desserts -->
+            <div class="menu-item-card" data-category="desserts">
+              <div class="item-info">
+                <div class="item-title-row">
+                  <h4>House Hibiscus Iced Tea (Agua de Jamaica)</h4>
+                  <span class="item-price">₱59</span>
+                </div>
+                <p class="item-desc">Authentic Mexican-style steeped hibiscus flower iced tea with a splash of fresh calamansi and mint.</p>
+                <span class="item-meta">Cold Drink • Signature Quencher</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. INTERACTIVE COMPONENT CONTAINER: "BUILD YOUR OWN BOWL" CUSTOMIZER
+         ========================================================================= -->
+    <section class="interactive-container-section" id="bowl-builder" aria-labelledby="builder-heading">
+      <div class="section-container">
+        
+        <!-- Header & Infographic Reference -->
+        <div class="section-header text-center">
+          <p class="section-eyebrow">Interactive Order Customizer</p>
+          <h2 id="builder-heading" class="section-title">Build Your Own Habibi Bowl</h2>
+          <p class="section-desc">
+            Mix it. Top it. Love it. Follow our 4-step kitchen formula to assemble your dream Mediterranean-Mexican bowl, see real-time pricing, and generate your order summary.
+          </p>
+        </div>
+
+        <div class="builder-layout-grid">
+          
+          <!-- Infographic Visual Guide Column -->
+          <div class="builder-guide-column">
+            <div class="infographic-wrapper">
+              <img src="assets/779944832_1475819591231495_5318647149067050822_n.jpg" 
+                   alt="Official Yalla Habibi 4-step Build Your Own Bowl Infographic: 1 Choose Base, 2 Choose Protein, 3 Choose Toppings, 4 Choose Sauce" 
+                   class="infographic-img" 
+                   loading="lazy">
+              <div class="infographic-caption">
+                <p><strong>Fresh. Flavorful. Made Your Way.</strong> Every single bowl is prepared fresh upon order in our Lucena kitchen.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Customizer Form Column -->
+          <div class="builder-interactive-column">
+            <form id="bowl-builder-form" class="builder-form" aria-label="Build Your Bowl Customizer Form">
+              
+              <!-- Step 1: Base -->
+              <fieldset class="builder-step-group">
+                <legend class="step-legend">
+                  <span class="step-number" aria-hidden="true">1</span>
+                  <span class="step-title">Choose Your Base</span>
+                  <span class="step-required">(Select 1)</span>
+                </legend>
+                <div class="options-grid">
+                  <label class="custom-radio-card">
+                    <input type="radio" name="bowl-base" value="Basmati Rice" checked>
+                    <span class="card-ui">
+                      <span class="opt-name">🍚 Basmati Rice</span>
+                      <small class="opt-sub">Fragrant long-grain</small>
+                    </span>
+                  </label>
+                  <label class="custom-radio-card">
+                    <input type="radio" name="bowl-base" value="Crispy Fries">
+                    <span class="card-ui">
+                      <span class="opt-name">🍟 Crispy Fries</span>
+                      <small class="opt-sub">Golden seasoned shoestring</small>
+                    </span>
+                  </label>
+                  <label class="custom-radio-card">
+                    <input type="radio" name="bowl-base" value="Fresh Lettuce">
+                    <span class="card-ui">
+                      <span class="opt-name">🥗 Fresh Lettuce</span>
+                      <small class="opt-sub">Crisp salad greens</small>
+                    </span>
+                  </label>
+                </div>
+              </fieldset>
+
+              <!-- Step 2: Protein -->
+              <fieldset class="builder-step-group">
+                <legend class="step-legend">
+                  <span class="step-number" aria-hidden="true">2</span>
+                  <span class="step-title">Choose Your Protein</span>
+                  <span class="step-required">(Select 1)</span>
+                </legend>
+                <div class="options-grid">
+                  <label class="custom-radio-card">
+                    <input type="radio" name="bowl-protein" value="Chicken Shawarma" checked>
+                    <span class="card-ui">
+                      <span class="opt-name">🍗 Chicken Shawarma</span>
+                      <small class="opt-sub">Spiced slow-roasted chicken</small>
+                    </span>
+                  </label>
+                  <label class="custom-radio-card">
+                    <input type="radio" name="bowl-protein" value="Breaded Chicken">
+                    <span class="card-ui">
+                      <span class="opt-name">🍗 Breaded Chicken</span>
+                      <small class="opt-sub">Crispy golden tenders</small>
+                    </span>
+                  </label>
+                  <label class="custom-radio-card">
+                    <input type="radio" name="bowl-protein" value="Kofta Kebab">
+                    <span class="card-ui">
+                      <span class="opt-name">🍢 Kofta Kebab (+₱20)</span>
+                      <small class="opt-sub">Grilled spiced beef patties</small>
+                    </span>
+                  </label>
+                  <label class="custom-radio-card">
+                    <input type="radio" name="bowl-protein" value="Beef Taco">
+                    <span class="card-ui">
+                      <span class="opt-name">🌮 Beef Taco (+₱20)</span>
+                      <small class="opt-sub">Zesty Mexican ground beef</small>
+                    </span>
+                  </label>
+                </div>
+              </fieldset>
+
+              <!-- Step 3: Toppings (Checkboxes) -->
+              <fieldset class="builder-step-group">
+                <legend class="step-legend">
+                  <span class="step-number" aria-hidden="true">3</span>
+                  <span class="step-title">Choose Your Toppings</span>
+                  <span class="step-required">(Select multiple)</span>
+                </legend>
+                <div class="options-checkbox-grid">
+                  <label class="custom-check-card">
+                    <input type="checkbox" name="bowl-toppings" value="Lettuce" checked>
+                    <span class="card-ui">🥬 Lettuce</span>
+                  </label>
+                  <label class="custom-check-card">
+                    <input type="checkbox" name="bowl-toppings" value="Cucumber" checked>
+                    <span class="card-ui">🥒 Cucumber</span>
+                  </label>
+                  <label class="custom-check-card">
+                    <input type="checkbox" name="bowl-toppings" value="Tomatoes" checked>
+                    <span class="card-ui">🍅 Tomatoes</span>
+                  </label>
+                  <label class="custom-check-card">
+                    <input type="checkbox" name="bowl-toppings" value="Corn" checked>
+                    <span class="card-ui">🌽 Sweet Corn</span>
+                  </label>
+                  <label class="custom-check-card">
+                    <input type="checkbox" name="bowl-toppings" value="Onion">
+                    <span class="card-ui">🧅 Pickled Onion</span>
+                  </label>
+                  <label class="custom-check-card">
+                    <input type="checkbox" name="bowl-toppings" value="Mozzarella Cheese">
+                    <span class="card-ui">🧀 Mozzarella Cheese</span>
+                  </label>
+                  <label class="custom-check-card">
+                    <input type="checkbox" name="bowl-toppings" value="Habibi Mix Salad">
+                    <span class="card-ui">🥗 Habibi Mix Salad</span>
+                  </label>
+                </div>
+              </fieldset>
+
+              <!-- Step 4: Sauce -->
+              <fieldset class="builder-step-group">
+                <legend class="step-legend">
+                  <span class="step-number" aria-hidden="true">4</span>
+                  <span class="step-title">Choose Your Sauce</span>
+                  <span class="step-required">(Select 1)</span>
+                </legend>
+                <div class="options-grid">
+                  <label class="custom-radio-card">
+                    <input type="radio" name="bowl-sauce" value="Garlic Toum Sauce" checked>
+                    <span class="card-ui">
+                      <span class="opt-name">🧄 Garlic Toum Sauce</span>
+                      <small class="opt-sub">Creamy Mediterranean white</small>
+                    </span>
+                  </label>
+                  <label class="custom-radio-card">
+                    <input type="radio" name="bowl-sauce" value="Spicy Garlic Sauce">
+                    <span class="card-ui">
+                      <span class="opt-name">🌶️ Spicy Garlic Sauce</span>
+                      <small class="opt-sub">Garlic with a kick</small>
+                    </span>
+                  </label>
+                  <label class="custom-radio-card">
+                    <input type="radio" name="bowl-sauce" value="Chipotle Sauce">
+                    <span class="card-ui">
+                      <span class="opt-name">🔥 Chipotle Sauce</span>
+                      <small class="opt-sub">Smoky Mexican crema</small>
+                    </span>
+                  </label>
+                  <label class="custom-radio-card">
+                    <input type="radio" name="bowl-sauce" value="Spicy Chipotle Sauce">
+                    <span class="card-ui">
+                      <span class="opt-name">💥 Spicy Chipotle Sauce</span>
+                      <small class="opt-sub">Fire blend for heat lovers</small>
+                    </span>
+                  </label>
+                </div>
+              </fieldset>
+
+              <!-- Realistic Restaurant Receipt Component -->
+              <div class="receipt-container" role="region" aria-label="Official Order Receipt Slip">
+                <div class="habibi-receipt" id="habibi-receipt">
+                  
+                  <!-- Zigzag top serrated edge decoration -->
+                  <div class="receipt-serrated-edge top" aria-hidden="true"></div>
+
+                  <!-- Receipt Header -->
+                  <div class="receipt-header">
+                    <div class="receipt-brand-row">
+                      <img src="assets/531821665_1160541802759277_3831146347920746539_n.jpg" 
+                           alt="Yalla Habibi Logo" 
+                           class="receipt-logo" 
+                           width="44" 
+                           height="44">
+                      <div class="receipt-brand-text">
+                        <span class="receipt-title">YALLA HABIBI</span>
+                        <span class="receipt-subtitle">Mediterranean × Mexican Fusion</span>
+                      </div>
+                    </div>
+                    <p class="receipt-meta-location">Quezon Ave. cor. Gomez St., Lucena City</p>
+                    <p class="receipt-meta-contact">Tel: +63 912 345 6789 • VAT Reg: 009-847-192-000</p>
+                    
+                    <div class="receipt-divider-dashed"></div>
+
+                    <!-- Receipt Metadata -->
+                    <div class="receipt-order-meta">
+                      <div class="meta-row">
+                        <span>ORDER NO:</span>
+                        <strong id="receipt-order-number">#YH-4821</strong>
+                      </div>
+                      <div class="meta-row">
+                        <span>DATE / TIME:</span>
+                        <span id="receipt-timestamp">Sep 30, 2026 • 02:15 PM</span>
+                      </div>
+                      <div class="meta-row">
+                        <span>SERVER:</span>
+                        <span>POS KITCHEN #01</span>
+                      </div>
+                      <div class="meta-row dining-mode-row">
+                        <span>DINING OPTION:</span>
+                        <div class="dining-switch" role="radiogroup" aria-label="Dining option">
+                          <label class="dining-pill">
+                            <input type="radio" name="receipt-dining-type" value="DINE-IN" checked>
+                            <span>Dine-In</span>
+                          </label>
+                          <label class="dining-pill">
+                            <input type="radio" name="receipt-dining-type" value="TAKEOUT">
+                            <span>Takeout</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="receipt-divider-solid"></div>
+
+                  <!-- Itemized Table Header -->
+                  <div class="receipt-item-header">
+                    <span class="col-qty">QTY</span>
+                    <span class="col-desc">ITEM DESCRIPTION</span>
+                    <span class="col-amt">AMOUNT</span>
+                  </div>
+
+                  <div class="receipt-divider-dashed"></div>
+
+                  <!-- Itemized Line Items -->
+                  <div class="receipt-body">
+                    <div class="receipt-main-item">
+                      <span class="col-qty">1x</span>
+                      <div class="col-desc">
+                        <strong class="item-name">CUSTOM HABIBI BOWL</strong>
+                        <ul class="receipt-sub-items" aria-label="Bowl Ingredients">
+                          <li><span class="sub-label">[BASE]</span> <span id="receipt-base">Basmati Rice</span> <span class="sub-price">(Incl.)</span></li>
+                          <li><span class="sub-label">[PROTEIN]</span> <span id="receipt-protein">Chicken Shawarma</span> <span class="sub-price" id="receipt-protein-price">(Incl.)</span></li>
+                          <li><span class="sub-label">[TOPPINGS]</span> <span id="receipt-toppings">Lettuce, Cucumber, Tomatoes, Corn</span> <span class="sub-price">(Incl.)</span></li>
+                          <li><span class="sub-label">[SAUCE]</span> <span id="receipt-sauce">Garlic Toum Sauce</span> <span class="sub-price">(Incl.)</span></li>
+                        </ul>
+                      </div>
+                      <span class="col-amt" id="receipt-item-total">₱189.00</span>
+                    </div>
+                  </div>
+
+                  <div class="receipt-divider-solid"></div>
+
+                  <!-- Calculations & Totals -->
+                  <div class="receipt-totals-area">
+                    <div class="totals-row">
+                      <span>SUBTOTAL (VAT Exclusive):</span>
+                      <span id="receipt-vat-exclusive">₱168.75</span>
+                    </div>
+                    <div class="totals-row">
+                      <span>12% EVAT (Included):</span>
+                      <span id="receipt-vat-amount">₱20.25</span>
+                    </div>
+                    <div class="totals-row highlight-total">
+                      <span>TOTAL AMOUNT DUE:</span>
+                      <strong class="total-price" id="receipt-grand-total">₱189.00</strong>
+                    </div>
+                    <div class="totals-row status-row">
+                      <span>PAYMENT STATUS:</span>
+                      <span class="badge-pending">PAY AT COUNTER / GCASH</span>
+                    </div>
+                  </div>
+
+                  <div class="receipt-divider-dashed"></div>
+
+                  <!-- Barcode & Footer Message -->
+                  <div class="receipt-footer">
+                    <div class="receipt-barcode" aria-hidden="true">
+                      <!-- Rendered barcode lines with CSS -->
+                      <span class="bar b-thin"></span>
+                      <span class="bar b-thick"></span>
+                      <span class="bar b-med"></span>
+                      <span class="bar b-thin"></span>
+                      <span class="bar b-thick"></span>
+                      <span class="bar b-thin"></span>
+                      <span class="bar b-med"></span>
+                      <span class="bar b-thick"></span>
+                      <span class="bar b-thin"></span>
+                      <span class="bar b-thin"></span>
+                      <span class="bar b-med"></span>
+                      <span class="bar b-thick"></span>
+                      <span class="bar b-thin"></span>
+                      <span class="bar b-med"></span>
+                      <span class="bar b-thick"></span>
+                      <span class="bar b-thin"></span>
+                      <span class="bar b-thin"></span>
+                      <span class="bar b-thick"></span>
+                    </div>
+                    <p class="barcode-number" id="receipt-barcode-code">*YH-LUCENA-BOWL*</p>
+                    <p class="receipt-greeting">
+                      "Mediterranean mood, mexican groove!"<br>
+                      Maraming Salamat, Habibi! ❤️
+                    </p>
+                    <p class="receipt-instructions">
+                      Please present this ticket at the counter or screenshot to order via delivery.
+                    </p>
+                  </div>
+
+                  <!-- Zigzag bottom serrated edge decoration -->
+                  <div class="receipt-serrated-edge bottom" aria-hidden="true"></div>
+
+                </div>
+
+                <!-- Receipt Action Buttons -->
+                <div class="receipt-actions no-print">
+                  <button type="button" class="btn btn-primary" id="print-receipt-btn" aria-label="Print or download receipt as PDF">
+                    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                      <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                      <rect x="6" y="14" width="12" height="8"></rect>
+                    </svg>
+                    <span>Print / Save Receipt Slip</span>
+                  </button>
+
+                  <button type="button" class="btn btn-secondary" id="copy-order-btn" aria-label="Copy order text to clipboard">
+                    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span>Copy Text</span>
+                  </button>
+
+                  <button type="reset" class="btn btn-outline btn-sm" id="reset-builder-btn" aria-label="Reset bowl selections">
+                    Reset
+                  </button>
+                </div>
+
+                <!-- Live ARIA feedback alert for receipt actions -->
+                <div id="builder-feedback" class="builder-feedback" role="status" aria-live="polite"></div>
+
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. INTERACTIVE FAQ SECTION (ACCORDION)
+         ========================================================================= -->
+    <section class="faq-section" id="faq" aria-labelledby="faq-heading">
+      <div class="section-container max-w-narrow">
+        <div class="section-header text-center">
+          <p class="section-eyebrow">Got Questions?</p>
+          <h2 id="faq-heading" class="section-title">Frequently Asked Questions</h2>
+          <p class="section-desc">Everything you need to know about dining, takeaway, and ingredients at Yalla Habibi Lucena.</p>
+        </div>
+
+        <div class="faq-accordion" role="region" aria-label="Frequently Asked Questions Accordion">
+          
+          <!-- FAQ 1 -->
+          <div class="faq-item">
+            <button type="button" class="faq-toggle" id="faq-btn-1" aria-expanded="false" aria-controls="faq-panel-1">
+              <span class="faq-question">Where are you located in Lucena City?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-1" role="region" aria-labelledby="faq-btn-1" hidden>
+              <p>We are centrally located in Lucena City, Quezon Province. We offer a vibrant, air-conditioned dining area with cozy booth seating, vibrant arches, and outdoor seating options.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button type="button" class="faq-toggle" id="faq-btn-2" aria-expanded="false" aria-controls="faq-panel-2">
+              <span class="faq-question">Are your dishes Halal-friendly and made fresh?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-2" role="region" aria-labelledby="faq-btn-2" hidden>
+              <p>Yes! We take pride in using 100% Halal-certified poultry and beef. Our produce is sourced locally and chopped fresh every single morning. We never serve day-old leftovers or artificial preservatives.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button type="button" class="faq-toggle" id="faq-btn-3" aria-expanded="false" aria-controls="faq-panel-3">
+              <span class="faq-question">How does the "Build Your Own Bowl" work?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-3" role="region" aria-labelledby="faq-btn-3" hidden>
+              <p>It's simple: pick 1 base (Basmati Rice, Fries, or Lettuce), pick 1 protein (Chicken Shawarma, Breaded Chicken, Kofta Kebab, or Beef Taco), choose as many free fresh toppings as you like, and finish with your favorite signature sauce!</p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button type="button" class="faq-toggle" id="faq-btn-4" aria-expanded="false" aria-controls="faq-panel-4">
+              <span class="faq-question">Do you offer delivery or bulk party platters?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-4" role="region" aria-labelledby="faq-btn-4" hidden>
+              <p>Yes! We provide packaged party meals in tamper-evident sealed bags for office celebrations, family events, and birthdays. You can send us a message through our contact form or contact our hotline directly.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <button type="button" class="faq-toggle" id="faq-btn-5" aria-expanded="false" aria-controls="faq-panel-5">
+              <span class="faq-question">What payment methods do you accept?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-5" role="region" aria-labelledby="faq-btn-5" hidden>
+              <p>We accept Cash, GCash, Maya, and major Philippine bank QR Ph transfers for both dine-in and takeout orders.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. CONTACT / CTA SECTION
+         ========================================================================= -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="section-container">
+        
+        <div class="section-header text-center">
+          <p class="section-eyebrow">Connect & Visit</p>
+          <h2 id="contact-heading" class="section-title">Drop by or Send Us a Message</h2>
+          <p class="section-desc">Have a question, catering request, or table reservation? We’d love to hear from you.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Cards -->
+          <div class="contact-info-cards" aria-label="Restaurant Contact Information">
+            
+            <div class="info-card">
+              <div class="info-icon" aria-hidden="true">📍</div>
+              <div>
+                <h3>Location</h3>
+                <p>Quezon Avenue / Gomez St.<br>Lucena City, 4301 Quezon Province, PH</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon" aria-hidden="true">⏰</div>
+              <div>
+                <h3>Store Operating Hours</h3>
+                <p>Monday – Sunday<br>10:00 AM – 9:00 PM</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon" aria-hidden="true">📞</div>
+              <div>
+                <h3>Phone & Inquiries</h3>
+                <p>Hotline: <a href="tel:+639123456789">+63 912 345 6789</a><br>Email: <a href="mailto:hello@yallahabibi.ph">hello@yallahabibi.ph</a></p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon" aria-hidden="true">🛵</div>
+              <div>
+                <h3>Delivery & Pick-Up</h3>
+                <p>Available on GrabFood, Foodpanda & direct store pickup.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Working Static Contact & Reservation Form UI -->
+          <div class="contact-form-wrapper">
+            <form id="contact-form" class="contact-form" novalidate aria-label="Restaurant Contact Form">
+              <h3 class="form-title">Send a Message or Reserve</h3>
+              
+              <!-- Name Input -->
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Full Name <span class="required" aria-hidden="true">*</span></label>
+                <input type="text" 
+                       id="contact-name" 
+                       name="name" 
+                       class="form-control" 
+                       placeholder="e.g. Maria Santos" 
+                       required 
+                       aria-required="true"
+                       autocomplete="name">
+                <span class="field-error" id="name-error" aria-live="polite"></span>
+              </div>
+
+              <!-- Contact / Phone / Email Input -->
+              <div class="form-group">
+                <label for="contact-channel" class="form-label">Email or Mobile Number <span class="required" aria-hidden="true">*</span></label>
+                <input type="text" 
+                       id="contact-channel" 
+                       name="contact" 
+                       class="form-control" 
+                       placeholder="e.g. maria@example.com or 0912 345 6789" 
+                       required 
+                       aria-required="true"
+                       autocomplete="email">
+                <span class="field-error" id="contact-error" aria-live="polite"></span>
+              </div>
+
+              <!-- Inquiry Type Select -->
+              <div class="form-group">
+                <label for="contact-type" class="form-label">Purpose of Inquiry</label>
+                <select id="contact-type" name="inquiry_type" class="form-control">
+                  <option value="Dine-In Table Reservation">Dine-In Table Reservation</option>
+                  <option value="Party Catering & Bulk Orders">Party Catering & Bulk Orders</option>
+                  <option value="General Question / Feedback">General Question / Feedback</option>
+                  <option value="Job Application">Career / Job Application</option>
+                </select>
+              </div>
+
+              <!-- Message Textarea -->
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Your Message or Booking Details <span class="required" aria-hidden="true">*</span></label>
+                <textarea id="contact-message" 
+                          name="message" 
+                          rows="4" 
+                          class="form-control" 
+                          placeholder="Tell us your party size, preferred time, or any questions..." 
+                          required 
+                          aria-required="true"></textarea>
+                <span class="field-error" id="message-error" aria-live="polite"></span>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block btn-lg" id="submit-contact-btn">
+                <span>Submit Message</span>
+                <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <!-- Form Submission Feedback Message -->
+              <div id="form-feedback" class="form-feedback" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       7. FOOTER LANDMARK
+       ========================================================================= -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="section-container">
+      <div class="footer-grid">
+        
+        <!-- Brand & Description Col -->
+        <div class="footer-col footer-brand-col">
+          <a href="#top" class="brand-link" aria-label="Back to home">
+            <img src="assets/531821665_1160541802759277_3831146347920746539_n.jpg" 
+                 alt="Yalla Habibi Logo" 
+                 class="brand-logo" 
+                 width="44" 
+                 height="44">
+            <span class="brand-text">
+              <span class="brand-name">Yalla Habibi</span>
+              <span class="brand-tagline">Mediterranean × Mexican</span>
+            </span>
+          </a>
+          <p class="footer-tagline">
+            "Mediterranean mood, mexican groove!" Fresh, fast-casual dining crafted with pride in Lucena City.
+          </p>
+          <div class="social-links" aria-label="Social Media Links">
+            <a href="https://facebook.com" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Visit Yalla Habibi on Facebook">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+              </svg>
+            </a>
+            <a href="https://instagram.com" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Visit Yalla Habibi on Instagram">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+            <a href="https://tiktok.com" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Visit Yalla Habibi on TikTok">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.49 6.3 6.3 0 0 0 1.86-4.49V8.67a8.21 8.21 0 0 0 4.91 1.62v-3.6z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links Col -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Explore</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#menu">Full Menu</a></li>
+            <li><a href="#bowl-builder">Build Your Bowl</a></li>
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+            <li><a href="#contact">Contact & Reservations</a></li>
+          </ul>
+        </div>
+
+        <!-- Opening Hours Col -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Store Hours</h4>
+          <p class="footer-text"><strong>Mon – Fri:</strong> 10:00 AM – 9:00 PM</p>
+          <p class="footer-text"><strong>Sat – Sun:</strong> 10:00 AM – 9:30 PM</p>
+          <p class="footer-text mt-2"><span class="status-indicator"></span> Open for Dine-In & Takeout</p>
+        </div>
+
+        <!-- Address & Contact Col -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Visit Our Kitchen</h4>
+          <address class="footer-address">
+            Quezon Avenue cor. Gomez St.<br>
+            Lucena City, Quezon Province<br>
+            Philippines, 4301<br>
+            <a href="tel:+639123456789" class="footer-contact-link">+63 912 345 6789</a>
+          </address>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; 2026 Yalla Habibi. All rights reserved. Made with ❤️ in Lucena City.
+        </p>
+        <a href="#top" class="back-to-top" aria-label="Back to top of page">
+          <span>Back to Top</span>
+          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       ACCESSIBLE MODAL DIALOG COMPONENT (DISH QUICK INSPECTOR)
+       ========================================================================= -->
+  <div class="modal-backdrop" id="dish-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-dish-title">
+    <div class="modal-dialog">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog window">&times;</button>
+      <div class="modal-content-area" id="modal-content">
+        <!-- Content will be injected dynamically by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container for Accessible Alerts -->
+  <div id="toast-container" class="toast-container" role="status" aria-live="polite"></div>
+
+  <!-- Relative JavaScript Link -->
+  <script src="script.js"></script>
+</body>
+</html>
